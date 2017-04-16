@@ -1,0 +1,5 @@
+C:\PAM-Git\Fuentes\PAM.DataAccess\bin\Debug\PAM.DataAccess.exe.config
+C:\PAM-Git\Fuentes\PAM.DataAccess\bin\Debug\PAM.DataAccess.exe
+C:\PAM-Git\Fuentes\PAM.DataAccess\bin\Debug\PAM.DataAccess.pdb
+C:\PAM-Git\Fuentes\PAM.DataAccess\obj\Debug\PAM.DataAccess.exe
+C:\PAM-Git\Fuentes\PAM.DataAccess\obj\Debug\PAM.DataAccess.pdb

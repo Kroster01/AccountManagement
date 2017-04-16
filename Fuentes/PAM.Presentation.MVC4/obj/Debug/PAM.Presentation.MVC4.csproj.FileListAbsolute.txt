@@ -62,3 +62,4 @@ C:\PAM-Git\Fuentes\PAM.Presentation.MVC4\bin\System.Web.Helpers.xml
 C:\PAM-Git\Fuentes\PAM.Presentation.MVC4\bin\System.Web.Mvc.xml
 C:\PAM-Git\Fuentes\PAM.Presentation.MVC4\obj\Debug\PAM.Presentation.MVC4.dll
 C:\PAM-Git\Fuentes\PAM.Presentation.MVC4\obj\Debug\PAM.Presentation.MVC4.pdb
+C:\PAM-Git\Fuentes\PAM.Presentation.MVC4\obj\Debug\PAM.Presentation.MVC4.csprojResolveAssemblyReference.cache

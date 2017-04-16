@@ -1,0 +1,5 @@
+C:\PAM-Git\Fuentes\PAM.Application\bin\Debug\PAM.Application.exe.config
+C:\PAM-Git\Fuentes\PAM.Application\bin\Debug\PAM.Application.exe
+C:\PAM-Git\Fuentes\PAM.Application\bin\Debug\PAM.Application.pdb
+C:\PAM-Git\Fuentes\PAM.Application\obj\Debug\PAM.Application.exe
+C:\PAM-Git\Fuentes\PAM.Application\obj\Debug\PAM.Application.pdb
