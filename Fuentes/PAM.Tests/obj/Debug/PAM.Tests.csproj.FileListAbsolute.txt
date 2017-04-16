@@ -30,3 +30,35 @@ C:\Users\jhernanq\documents\visual studio 2015\Projects\PAM-Git\PAM-Git.Tests\bi
 C:\Users\jhernanq\documents\visual studio 2015\Projects\PAM-Git\PAM-Git.Tests\obj\Debug\PAM.Tests.csprojResolveAssemblyReference.cache
 C:\Users\jhernanq\documents\visual studio 2015\Projects\PAM-Git\PAM-Git.Tests\obj\Debug\PAM-Git.Tests.dll
 C:\Users\jhernanq\documents\visual studio 2015\Projects\PAM-Git\PAM-Git.Tests\obj\Debug\PAM-Git.Tests.pdb
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\roslyn\csc.exe
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\roslyn\vbc.exe
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\PAM.Tests.dll
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\PAM.Tests.pdb
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\PAM.Presentation.MVC4.dll
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\System.Web.Mvc.dll
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\System.Web.Razor.dll
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\System.Web.WebPages.dll
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\PAM.Presentation.MVC4.pdb
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\System.Web.Mvc.xml
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\System.Web.Razor.xml
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\System.Web.WebPages.xml
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\PAM-Git\Fuentes\PAM.Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\PAM-Git\Fuentes\PAM.Tests\obj\Debug\PAM.Tests.csprojResolveAssemblyReference.cache
+C:\PAM-Git\Fuentes\PAM.Tests\obj\Debug\PAM.Tests.dll
+C:\PAM-Git\Fuentes\PAM.Tests\obj\Debug\PAM.Tests.pdb

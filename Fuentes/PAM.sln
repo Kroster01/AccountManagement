@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAM.Presentation.MVC4", "PAM-Git\PAM.Presentation.MVC4.csproj", "{111936F5-3E2D-4533-A15D-BDF7FB1CC607}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAM.Presentation.MVC4", "PAM.Presentation.MVC4\PAM.Presentation.MVC4.csproj", "{111936F5-3E2D-4533-A15D-BDF7FB1CC607}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAM.Tests", "PAM-Git.Tests\PAM.Tests.csproj", "{6B7DD604-6755-4FD4-AF35-B7D32EFA8259}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAM.Tests", "PAM.Tests\PAM.Tests.csproj", "{6B7DD604-6755-4FD4-AF35-B7D32EFA8259}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{E904EAE0-999D-4EBC-9F07-1756E18621F0}"
 EndProject

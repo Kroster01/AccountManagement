@@ -7,7 +7,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PAM_Git.Tests</RootNamespace>
-    <AssemblyName>PAM-Git.Tests</AssemblyName>
+    <AssemblyName>PAM.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -52,7 +52,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PAM-Git\PAM.Presentation.MVC4.csproj">
+    <ProjectReference Include="..\PAM.Presentation.MVC4\PAM.Presentation.MVC4.csproj">
       <Project>{111936F5-3E2D-4533-A15D-BDF7FB1CC607}</Project>
       <Name>PAM.Presentation.MVC4</Name>
     </ProjectReference>
