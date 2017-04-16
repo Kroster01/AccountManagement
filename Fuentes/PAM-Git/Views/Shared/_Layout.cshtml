@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Account Management</title>
+        <meta charset="utf-8" />
+        <meta name="Author" content="AccountManagement" />
+        <meta name="Description" content="AccountManagement" />
+        <meta name="Keywords" content="palabras, claves" />
+        <link rel="shortcut icon" href="@Url.Content("~/favicon.png")" />
+        <link href="@Url.Content("~/Content/Site.css")"rel="stylesheet" type="text/css"/>
+    </head>
+<body>
+    <div id="layoutLoadingDiv" hidden>
+        <img src="~/Images/General/Loading/convergence-loading-3.gif" style="top: 30%; left: 55%; margin: auto; position: fixed" />
+        <div style="top: 34%; left: 54.5%; margin: auto; position: fixed"></div>
+        <div style="top: 34%; left: 54.5%; margin: auto; position: fixed">
+            Loading ...
+        </div>
+    </div>
+    <div id="heder">
+        <h1>My site Header</h1>
+    </div>
+
+    <div id="sidebar">
+        
+    </div>
+
+    <div id="content">
+        @RenderBody()
+    </div>
+
+    <div id="footer">
+        <p>
+            Site Footer - &copy; Account Management
+        </p>
+    </div>
+</body>
+</html>
