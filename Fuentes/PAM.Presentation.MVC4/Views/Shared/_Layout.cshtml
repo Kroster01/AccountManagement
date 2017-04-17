@@ -1,38 +1,49 @@
-﻿<!DOCTYPE html>
+﻿@{
+    var login = false;
+}
+
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Account Management</title>
+        <title>PAM</title>
         <meta charset="utf-8" />
         <meta name="Author" content="AccountManagement" />
         <meta name="Description" content="AccountManagement" />
         <meta name="Keywords" content="palabras, claves" />
         <link rel="shortcut icon" href="@Url.Content("~/favicon.png")" />
-        <link href="@Url.Content("~/Content/Site.css")"rel="stylesheet" type="text/css"/>
+        
+        <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link href="@Url.Content("~/Content/bootstrap/bootstrap.min.css")" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/Site.css")" />
     </head>
 <body>
-    <div id="layoutLoadingDiv" hidden>
-        <img src="~/Images/General/Loading/convergence-loading-3.gif" style="top: 30%; left: 55%; margin: auto; position: fixed" />
-        <div style="top: 34%; left: 54.5%; margin: auto; position: fixed"></div>
-        <div style="top: 34%; left: 54.5%; margin: auto; position: fixed">
-            Loading ...
+    @if (login)
+    {
+        <div id="layoutLoadingDiv" hidden>
+            <img src="~/Images/General/Loading/convergence-loading-3.gif" style="top: 30%; left: 55%; margin: auto; position: fixed" />
+            <div style="top: 34%; left: 54.5%; margin: auto; position: fixed"></div>
+            <div style="top: 34%; left: 54.5%; margin: auto; position: fixed">
+                Loading ...
+            </div>
         </div>
-    </div>
-    <div id="heder">
-        <h1>My site Header</h1>
-    </div>
+        <div id="heder">
+            <h1>My site Header</h1>
+        </div>
 
-    <div id="sidebar">
+        <div id="sidebar">
         
-    </div>
-
+        </div>
+    }
     <div id="content">
         @RenderBody()
     </div>
-
-    <div id="footer">
-        <p>
-            Site Footer - &copy; Account Management
-        </p>
-    </div>
+    @if (login)
+    {
+        <div id="footer">
+            <p>
+                Site Footer - &copy; Account Management
+            </p>
+        </div>
+    }
 </body>
 </html>
