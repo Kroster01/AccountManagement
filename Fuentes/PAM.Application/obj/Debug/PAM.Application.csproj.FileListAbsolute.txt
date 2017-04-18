@@ -1,8 +1,0 @@
-C:\PAM-Git\Fuentes\PAM.Application\bin\Debug\PAM.Application.exe.config
-C:\PAM-Git\Fuentes\PAM.Application\bin\Debug\PAM.Application.exe
-C:\PAM-Git\Fuentes\PAM.Application\bin\Debug\PAM.Application.pdb
-C:\PAM-Git\Fuentes\PAM.Application\bin\Debug\PAM.Business.exe
-C:\PAM-Git\Fuentes\PAM.Application\bin\Debug\PAM.Business.pdb
-C:\PAM-Git\Fuentes\PAM.Application\obj\Debug\PAM.Application.csprojResolveAssemblyReference.cache
-C:\PAM-Git\Fuentes\PAM.Application\obj\Debug\PAM.Application.exe
-C:\PAM-Git\Fuentes\PAM.Application\obj\Debug\PAM.Application.pdb

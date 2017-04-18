@@ -1,5 +1,0 @@
-C:\PAM-Git\Fuentes\PAM.Entities\bin\Debug\PAM.Entities.exe.config
-C:\PAM-Git\Fuentes\PAM.Entities\bin\Debug\PAM.Entities.exe
-C:\PAM-Git\Fuentes\PAM.Entities\bin\Debug\PAM.Entities.pdb
-C:\PAM-Git\Fuentes\PAM.Entities\obj\Debug\PAM.Entities.exe
-C:\PAM-Git\Fuentes\PAM.Entities\obj\Debug\PAM.Entities.pdb
