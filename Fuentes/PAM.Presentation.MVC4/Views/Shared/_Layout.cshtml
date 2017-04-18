@@ -1,8 +1,4 @@
-﻿@{
-    var login = false;
-}
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <title>PAM</title>
@@ -17,33 +13,8 @@
         <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/Site.css")" />
     </head>
 <body>
-    @if (login)
-    {
-        <div id="layoutLoadingDiv" hidden>
-            <img src="~/Images/General/Loading/convergence-loading-3.gif" style="top: 30%; left: 55%; margin: auto; position: fixed" />
-            <div style="top: 34%; left: 54.5%; margin: auto; position: fixed"></div>
-            <div style="top: 34%; left: 54.5%; margin: auto; position: fixed">
-                Loading ...
-            </div>
-        </div>
-        <div id="heder">
-            <h1>My site Header</h1>
-        </div>
-
-        <div id="sidebar">
-        
-        </div>
-    }
     <div id="content">
         @RenderBody()
     </div>
-    @if (login)
-    {
-        <div id="footer">
-            <p>
-                Site Footer - &copy; Account Management
-            </p>
-        </div>
-    }
 </body>
 </html>

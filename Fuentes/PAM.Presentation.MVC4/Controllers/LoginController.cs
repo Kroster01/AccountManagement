@@ -2,16 +2,15 @@
 
 namespace PAM.Presentation.MVC4.Controllers
 {
-    public class HomeController : Controller
+    public class LoginController : Controller
     {
-        public HomeController() 
+        public LoginController() 
         {
-            
         }
 
         public ActionResult Index()
         {
-            return View();
+            return PartialView("../Shared/Login");
         }
 
         public ActionResult About()
