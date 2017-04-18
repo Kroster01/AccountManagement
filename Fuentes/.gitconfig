@@ -1,0 +1,14 @@
+[difftool "Araxis"]
+	path = C:/Program Files/Araxis/Araxis Merge/Compare.exe
+[user]
+	name = Jose Hernandez Q
+	email = jhernanq@everis.com
+[core]
+	editor = \"C:/Program Files (x86)/GitExtensions/GitExtensions.exe\" fileeditor
+[diff]
+	guitool = araxis
+[merge]
+	tool = Araxis
+[mergetool "Araxis"]
+	path = C:/Program Files/Araxis/Araxis Merge/Compare.exe
+	cmd = /merge /wait /a2 /3 \"$LOCAL\" \"$BASE\" \"$REMOTE\" \"$MERGED\"
