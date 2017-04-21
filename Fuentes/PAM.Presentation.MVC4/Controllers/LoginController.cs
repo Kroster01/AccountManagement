@@ -11,6 +11,7 @@ namespace PAM.Presentation.MVC4.Controllers
         public ActionResult Index()
         {
             return PartialView("../Shared/Login");
+            ///return PartialView("../Shared/RegisterUser");
         }
 
         public ActionResult About()

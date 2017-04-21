@@ -8,9 +8,8 @@
         <meta name="Keywords" content="palabras, claves" />
         <link rel="shortcut icon" href="@Url.Content("~/favicon.png")" />
         
-        <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <link href="@Url.Content("~/Content/bootstrap/bootstrap.min.css")" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/Site.css")" />
+        @RenderSection("Styles", true)
+        @RenderSection("JavaScript", true)
     </head>
 <body>
     <div id="content">
