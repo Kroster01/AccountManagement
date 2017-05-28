@@ -1,0 +1,52 @@
+﻿@using System.Web.Mvc.Ajax
+
+@{
+    /// Layout = ("~/Views/Shared/_Layout.cshtml");
+    var Model = new List<string> { "1", "2", "3" };
+}
+
+@section Styles {
+    @*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">*@
+}
+
+@section JavaScript {
+    @*<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>*@
+}
+
+<div id="sidebar" class="col-md-12 nopadding sideBar" style="font-size: 1.10em; background-color: #F4F4F4; padding: 0 !important;">
+    <ul id="sidebarList" class="nav nav-pills nav-stacked hoverOrangeBG sideBar" style="font-size: 1.10em; background-color: #F4F4F4;">
+        @foreach (var menuItem in Model)
+        {
+            <li>
+                <!-- Second menu level-->
+                @Html.AjaxHelper().ActionLink("Description",
+                           "ActionName",
+                           new { menuItemId = 20000, operationNumber = "SS-S1052" },
+            new AjaxOptions
+            {
+                UpdateTargetId = "mainLayoutOperationContent",
+                InsertionMode = InsertionMode.Replace,
+                HttpMethod = "GET",
+                //OnBegin = options.OnBegin,
+                OnSuccess = "AjaxOnSuccess",
+                //OnFailure = "AjaxOnFailure"
+            },
+        new
+        {
+            @class = "DefaultPage" + " leftMenuItem parentNode collapsed sideBar ",
+            //data_toggle = "collapse",
+            //aria_expanded = arrowDown
+        })
+
+                <div id="" class="panel-collapse" aria-expanded="false">
+                    <ul class="nav nav-pills nav-stacked hoverOrangeBG sidebar-sublist ">
+                        <li>
+                            @menuItem
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        }
+    </ul>
+</div>

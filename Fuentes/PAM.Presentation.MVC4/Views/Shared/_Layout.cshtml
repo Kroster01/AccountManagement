@@ -1,19 +1,40 @@
 ﻿<!DOCTYPE html>
 <html>
-    <head>
-        <title>PAM</title>
-        <meta charset="utf-8" />
-        <meta name="Author" content="AccountManagement" />
-        <meta name="Description" content="AccountManagement" />
-        <meta name="Keywords" content="palabras, claves" />
-        <link rel="shortcut icon" href="@Url.Content("~/favicon.png")" />
-        
-        @RenderSection("Styles", true)
-        @RenderSection("JavaScript", true)
-    </head>
+<head>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/jquery-1.10.2.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/jquery-ui-1.11.3.js")"></script>
+
+    <title>PAM</title>
+    <meta charset="utf-8" />
+    <meta name="Author" content="Personal Account Management" />
+    <meta name="Description" content="Personal Account Management" />
+    <meta name="Keywords" content="palabras, claves" />
+    <link rel="shortcut icon" href="@Url.Content("~/favicon.png")" />
+
+    @*<link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/general.css")" />*@
+
+    <!-- CSS Sections -->
+    @RenderSection("CSS", required: false)
+    @RenderSection("Styles", false)
+
+    <!-- JavaScript Sections -->
+    @RenderSection("JavaScript", required: false)
+
+</head>
 <body>
-    <div id="content">
-        @RenderBody()
-    </div>
+    <!--SECCION CENTRAL-->
+    <section class="central">
+        @*@Confluence.Loader()*@
+        <div class="renderHeight" style="height: inherit; position: relative;">
+            @RenderBody()
+        </div>
+
+    </section>
+    <!--FIN SECCION CENTRAL-->
+    <footer class="pie">
+        <p id="titleVerifyContent" title="Verify content"></p>
+    </footer>
+
+    @*@Html.Partial("~/Views/Shared/Controls/ShowError.cshtml")*@
 </body>
 </html>

@@ -1,0 +1,52 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "BaseContent";
+}
+
+@section CSS {
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/font-awesome.min.css")" />
+    @*<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">*@
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/bootstrap/bootstrap.min.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/Site.css")" />
+}
+
+@section JavaScript {
+
+}
+
+<h2>BaseContent</h2>
+
+<header class="container-fluid" style="padding-left: 7px; padding-right: 15px; margin-right: auto; margin-left: auto; display: block;">
+    Heder
+</header>
+<div class="container-fluid" id="body">
+    <div id="main" class="mainframe_main" style="min-height: 400px;">
+        <div id="layoutMainContent">
+            <div class="row row-eq-height" style="display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;">
+                <div class="nomargin collapse in collap nopadding sideBar" style=" display: block; font-size: 1.10em; background-color: #F4F4F4;">
+                    @Html.Partial("~/Views/Shared/PrincipalMenu.cshtml")
+                </div>
+                <div id="mainLayoutOperationContent" class="mainContent">
+
+                    <div id="iframeLoader" class="iframeLoader">
+                        @* Marejar el contenido *@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="Conteiner">
+    <div id="LateralMenu" style="width:230px; float:left">
+
+    </div>
+    <div id="CentralContent" style="float:left">
+        @*@Html.Partial("~/Views/Mainframe/Partials/MainOperationHeader.cshtml", Model)*@
+    </div>
+</div>
+<footer style="clear: both; background-color: #e2e2e2; font-size: .8em; height: 100px; background-color: #eee; font-family: 'OpenSans-Regular'; font-size: 9px; text-align: right; height: 30px; bottom: 0; left: 0; right: 0; margin: 0 0.5em 0.5em 0;">
+    <div class="col-md-12 pull-right mainFooter" style="height: 30px; padding-right: 90px; font-family: 'OpenSans-Bold'; font-size: 9px; background-repeat: no-repeat; background-position: center right; background-size: contain;">
+        <span class="footerLogo" style="display: block; line-height: 30px;">Environment: AZDAMVC01 | Version: 6.0</span>
+    </div>
+</footer>
