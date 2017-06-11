@@ -136,6 +136,7 @@
     <Content Include="Scripts\bootstrap\bootstrap.min.js" />
     <Content Include="Scripts\jquery\jquery-3.2.1.js" />
     <Content Include="Scripts\jquery\jquery-ui-1.11.3.js" />
+    <Content Include="Scripts\jquery\jquery.unobtrusive-ajax.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
